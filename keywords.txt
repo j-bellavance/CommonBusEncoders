@@ -1,0 +1,6 @@
+CommonBusEncoders	KEYWORD1
+addEncoder	KEYWORD2
+readAll	KEYWORD2
+resetChronoAfter	KEYWORD2
+setDebounce	KEYWORD2
+focussed	KEYWORD2
