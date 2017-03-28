@@ -20,6 +20,6 @@ It is good for applications where the user has a feedback of the rotation of an 
 
 In every loop, all the encoders are read to detect movement. When such a movement is detected, the Library will focus on this encoder, as long as it is beeing operated. When there is no more activity (for a time period that can be adjusted in the script) the Library will read all the encoders again in every loop.
 
-To accomodate mechanical encoders, a debounce layer has been added. It's sensitivity can be adjusted between 5us to 160us (settings 1 to 32).
+To accomodate mechanical encoders, a debounce layer has been added. It's sensitivity can be adjusted in the script between 5us to 160us (settings 1 to 32).
 
 With all this said, I have a sketch that reads 19 encoders and 35 switches, (and does something with the reads) and it is rock solid.
