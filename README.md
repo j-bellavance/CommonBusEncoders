@@ -1,8 +1,6 @@
 # CommonBusEncoders
 Encoders are linked to 3 common busses to save pins
 
-I have designed a Library to read multiple encoders. 
-
 I had a project that needed 19 encoders, and, using three pins per encoder was not a good solution for me.
 
 I saw that it was possible to add that many encoders with only 22 pins. Thanks to Vlad Sychev, the designer of ArdSim for his design.
