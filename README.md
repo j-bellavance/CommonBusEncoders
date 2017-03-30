@@ -5,7 +5,7 @@ I had a project that needed 19 encoders, and, using three pins per encoder was n
 
 I saw that it was possible to add that many encoders with only 22 pins. Thanks to Vlad Sychev, the designer of ArdSim for his design.
 
-The ldea is to link all the A pins to a bus, the B pins to a second bus and one of the switch pins to a third bus. 
+The idea is to link all the A pins to a bus, the B pins to a second bus and one of the switch pins to a third bus. 
 Only the common pin needs it's own arduino digital pin.
 
 This library can handle as many encoders as you need. 
